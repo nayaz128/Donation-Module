@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright © Navyug. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add action="Navyug_donationproduct/donations/index" id="Navyug::Navyug_donationproduct_donations" module="Navyug_DonationProduct" parent="Magento_Reports::report_salesroot" resource="Magento_Backend::content" sortOrder="9999" title="Donations"/>
+	</menu>
+</config>

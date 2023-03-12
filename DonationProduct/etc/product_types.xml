@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Navyug. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Catalog/etc/product_types.xsd">
+    <type name="donation" label="Donation Product" modelInstance="Navyug\DonationProduct\Model\Product\Type\Donation" indexPriority="25" sortOrder="25" isQty="true" canUseQtyDecimals="false">
+        <customAttributes>
+            <attribute name="refundable" value="false"/>
+        </customAttributes>
+        <priceModel instance="Navyug\DonationProduct\Model\Product\Price"/>
+    </type>
+</config>
